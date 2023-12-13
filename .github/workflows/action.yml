@@ -34,4 +34,4 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/pocjava-gradle:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/springboot-images-new:latest
