@@ -3,9 +3,9 @@ run-name: Workflow to deploy a Spring Boot app to Azure Web App
 
 on:
   push:
-    branches: [master]
+    branches: [main]
   pull_request:
-    branches: [master]
+    branches: [main]
 
 jobs:
   build_test:
