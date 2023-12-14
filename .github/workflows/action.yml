@@ -10,8 +10,5 @@ on:
 
 jobs:
   call-workflow-mvn-cache-advanced:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Call workflow
-        uses: ejiroshi/workflow-templates/.github/workflows/build-mvn-cache-advanced.yml@main
-        secrets: inherit
+    uses: ejiroshi/workflow-templates/.github/workflows/build-mvn-cache-advanced.yml@main
+    secrets: inherit
