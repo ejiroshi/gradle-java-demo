@@ -14,6 +14,6 @@ jobs:
       matrix:
         java-version: ['1.8', '11']
     uses: ./.github/workflows/build-mvn-cache-advanced.yml
-    secrets: inherit
     with:
       java: ${{ matrix.java-version }}
+    secrets: inherit
