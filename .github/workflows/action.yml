@@ -10,5 +10,5 @@ on:
 
 jobs:
   call-workflow-mvn-cache-advanced:
-    uses: ejiroshi/workflow-templates/.github/workflows/build-mvn-cache-advanced.yml@main
+    uses: ./.github/workflows/build-mvn-cache-advanced.yml
     secrets: inherit
