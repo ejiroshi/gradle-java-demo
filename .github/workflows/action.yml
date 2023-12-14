@@ -17,3 +17,5 @@ jobs:
     with:
       java: ${{ matrix.java-version }}
     secrets: inherit
+  call-deployment:
+    uses: ejiroshi/workflow-templates/.github/workflows/deployment.yml@main
