@@ -18,4 +18,4 @@ jobs:
       java: ${{ matrix.java-version }}
     secrets: inherit
   call-deployment:
-    uses: ejiroshi/workflow-templates/.github/workflows/deployment.yml@main
+    uses: 'clever-github-team/workflow-templates/.github/workflows/deployment.yml@main'
