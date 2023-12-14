@@ -10,5 +10,10 @@ on:
 
 jobs:
   call-workflow-mvn-cache-advanced:
+    strategy:
+      matrix:
+        java-version: ['1.8', '11']
     uses: ./.github/workflows/build-mvn-cache-advanced.yml
     secrets: inherit
+    with:
+      java: ${{ matrix.java-version }}
